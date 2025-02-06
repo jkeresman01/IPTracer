@@ -1,16 +1,12 @@
-## IPtracker COBRA CLI application
+## IPTracer
 
-IPtracker is CLI application build with COBRA. It enables you to trace any IP address.
+IPTracer is a simple CLI application build with COBRA.
 
-#### Command example:
+It enables you to trace any IP address.
 
-iptracker trace 1.1.1.1
+Just to get familiar with COBRA a bit.
 
-#### Command output:
+## Command example:
 
-Location info:
-
-Country: US 
-City: Los Angeles
-Region: California
-Timezone: America/Los_Angeles
+``` 
+  iptracker trace 8.8.8.8
