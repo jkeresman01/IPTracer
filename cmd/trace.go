@@ -58,8 +58,8 @@ func getIpInfo(ipAdrress string) []byte{
 	if err != nil{
 		log.Printf("Unable to get IP data for: %s", ipAdrress)
 	}
-	defer res.Body.Close()
 
+	defer res.Body.Close()
 
 	body, err := ioutil.ReadAll(res.Body)
 	if err != nil{
