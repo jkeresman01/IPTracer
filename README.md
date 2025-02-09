@@ -1,6 +1,6 @@
-## IPTracer
+## IPTracker
 
-IPTracer is a simple CLI application build with COBRA.
+IPTracker is a simple CLI application build with COBRA.
 
 It enables you to trace any IP address.
 
